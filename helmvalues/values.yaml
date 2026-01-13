@@ -158,7 +158,7 @@ serviceAccount:
   name: secretsmanager-sa
   annotations:
     # IAM Role ARN associated via IRSA (EKS) that allows read access to AWS Secrets Manager
-    eks.amazonaws.com/role-arn: arn:aws:iam::572966876064:role/Secrets-manager-read-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::123456789:role/Secrets-manager-read-role
 
 # Remote secrets configuration (e.g., AWS Secrets Manager)
 secretsremote:
